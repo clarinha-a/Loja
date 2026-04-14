@@ -1,6 +1,7 @@
 import './App.css'
 import Topo from './components/Topo'
 import Capa from './components/Capa'
+import Produtos from './components/Produtos'
 function App() {
 
   return (
@@ -11,6 +12,9 @@ function App() {
 
       <main>
         <Capa/>
+        <section>
+          <Produtos/>
+        </section>
       </main>
 
     </div>
